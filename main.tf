@@ -58,6 +58,6 @@ resource "aws_eip" "web" {
   instance = aws_instance.web.id
   tags = {
     Name  = "${var.server_name}-WebServer IP"
-    Owner = "Denis Astahov"
+    Owner = "DIMMM"
   }
 }
